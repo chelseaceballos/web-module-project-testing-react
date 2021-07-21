@@ -13,19 +13,28 @@ const testEpisode = {
 }
 
 const testEpisodeWithoutImage = {
-    //Add in approprate test data structure here.
+    //Add in appropriate test data structure here.
+    // id:1,
+    // name: "",
+    // // image: "http://static.tvmaze.com/uploads/images/medium_landscape/67/168918.jpg",
+    // season: 1,
+    // number: 1,
+    // summary: "",
+    // runtime: 1
 }
 
 test("renders without error", () => {
-
+//  render[<Episode />];
 });
 
-test("renders the summury test passed as prop", ()=>{
-    
+test("renders the summary test passed as prop", ()=>{
+    // render[<Episode testProps={testEpisode.summary}/>];
+
 });
 
 test("renders default image when image is not defined", ()=>{
-    
+    // render[<Episode testProps={testEpisodeWithoutImage}/>];
+
 })
 
 //Tasks
